@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF443A5A283C955E002B8A1F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF443A59283C955E002B8A1F /* SDWebImageSwiftUI */; };
 		EF4D866C283B2B04004ED8A8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D866B283B2B04004ED8A8 /* WelcomeView.swift */; };
 		EF4D866E283B2C4E004ED8A8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D866D283B2C4E004ED8A8 /* LoadingView.swift */; };
 		EF91376228392929009C617E /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91376128392929009C617E /* Forecast.swift */; };
@@ -16,7 +17,6 @@
 		EF9137702839D5CB009C617E /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91376F2839D5CB009C617E /* ForecastViewModel.swift */; };
 		EF91377B283A2D2A009C617E /* LocationSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91377A283A2D2A009C617E /* LocationSearchBar.swift */; };
 		EFB27823283B2DED0069157A /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB27822283B2DED0069157A /* WeatherForecastView.swift */; };
-		EFB27826283B51F70069157A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EFB27825283B51F70069157A /* SDWebImageSwiftUI */; };
 		EFCFB0D1283A5380009FC3AA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCFB0D0283A5380009FC3AA /* LocationManager.swift */; };
 		EFCFB0D3283A7522009FC3AA /* API Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCFB0D2283A7522009FC3AA /* API Service.swift */; };
 		EFF955952838B4880045F4A8 /* Weather4CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF955942838B4880045F4A8 /* Weather4CastApp.swift */; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB27826283B51F70069157A /* SDWebImageSwiftUI in Frameworks */,
+				EF443A5A283C955E002B8A1F /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +160,7 @@
 			);
 			name = Weather4Cast;
 			packageProductDependencies = (
-				EFB27825283B51F70069157A /* SDWebImageSwiftUI */,
+				EF443A59283C955E002B8A1F /* SDWebImageSwiftUI */,
 			);
 			productName = Weather4Cast;
 			productReference = EFF955912838B4880045F4A8 /* Weather4Cast.app */;
@@ -191,7 +191,7 @@
 			);
 			mainGroup = EFF955882838B4880045F4A8;
 			packageReferences = (
-				EFB27824283B51F70069157A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EF443A58283C955E002B8A1F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = EFF955922838B4880045F4A8 /* Products */;
 			projectDirPath = "";
@@ -435,7 +435,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EFB27824283B51F70069157A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		EF443A58283C955E002B8A1F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
 			requirement = {
@@ -446,9 +446,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EFB27825283B51F70069157A /* SDWebImageSwiftUI */ = {
+		EF443A59283C955E002B8A1F /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EFB27824283B51F70069157A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = EF443A58283C955E002B8A1F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
