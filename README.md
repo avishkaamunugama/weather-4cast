@@ -17,3 +17,4 @@ Below are some screenshots of the app.
 Some key features of the app:
 1. User's current location identification.
 2. Location search.
+3. Open-weather-map api used.
