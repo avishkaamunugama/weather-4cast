@@ -1,5 +1,5 @@
 # Weather4cast
-A modern weather forecast app built using SwiftUI.
+A modern weather forecast app. The repo contains 2 versions of the app built using SwiftUI and UIKit. The UI and functionality is identical in both apps.
 
 Below are some screenshots of the app. 
 
